@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+#hero{
+    background-image: url("../assets/Hero-bg.png");
+    background-size: contain;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero .box{
+    width: 680px;
+    margin: 0 auto;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px; 
+}
+
+.text {
+    flex: 1;
+}
+
+
+
