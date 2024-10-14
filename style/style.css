@@ -1,31 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
-#hero{
-    background-image: url("../assets/Hero-bg.png");
-    background-size: contain;
-    background-position: center;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+#hero {
+  background-image: url("../assets/Hero-bg.png");
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1335px;
+  height: 500px;
 }
-#hero .box{
-    width: 680px;
-    margin: 0 auto;
+#hero .box {
+  width: 680px;
+  margin: 0 auto;
 }
-.container {
+.text{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+}
+.devolopment-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inspiration-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.video-container{
+    display: flex;
     justify-content: center;
 }
-.image {
-    max-width: 100%;
-    height: auto;
-    margin-right: 20px; 
+.title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
-.text {
-    flex: 1;
+.images{
+display: flex;
+width: 50%;
+margin: 0 auto;
+margin-bottom: 20px;
 }
-
-
-
+.support-container-center {
+  width: 90%;
+  height: 380px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/handshake.jpg");
+}
+.support-container p {
+  margin-bottom: 25px;
+}
+#submit-btn {
+  width: 90px;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+}
