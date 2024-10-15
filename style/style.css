@@ -8,45 +8,75 @@
   justify-content: center;
   align-items: center;
   width: 1335px;
-  height: 500px;
+  height: 480px;
 }
 #hero .box {
   width: 680px;
   margin: 0 auto;
 }
-.text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.contact-btn{
+  text-align: center;
 }
-.devolopment-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.future-text {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
 }
-.inspiration-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.btn {
+  width: 120px;
+  height: 40px;
+  background-color: rgb(13, 19, 33);
+  border-radius: 6px;
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
 }
-.video-container{
-    display: flex;
-    justify-content: center;
+.devolopment-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.title-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.inspiration-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.images{
-display: flex;
-width: 50%;
-margin: 0 auto;
-margin-bottom: 20px;
+.video-container {
+  display: flex;
+  justify-content: center;
+  /* Rectangle 1 */
+  position: static;
+  width: 1000px;
+  height: 550px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 10px 0px;
+  margin-left: 180px;
+}
+.title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.images {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 .support-container-center {
   width: 90%;
